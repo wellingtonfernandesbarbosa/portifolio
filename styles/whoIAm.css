@@ -1,0 +1,35 @@
+.whoIAm {
+    margin: 5em 5em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.whoIAm-info {
+    width: 50%;
+}
+
+.whoIAm-info-text {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.whoIAm-info-name {
+    font-weight: 700;
+    font-size: 3.2em;
+    line-height: 1.5em;
+}
+.whoIAm-info-role {
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.whoIAm-photo {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.whoIAm-photo-image {
+    width: 80%;
+}

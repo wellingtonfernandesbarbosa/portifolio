@@ -1,0 +1,26 @@
+@import url('styles/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('styles/header.css');
+@import url('styles/whoIAm.css');
+@import url('styles/aboutMe.css');
+
+:root{
+    --primay-color: #e0e0e0;
+    --secondary-color: #22d4fd;
+    --tertiary-color: #828282;
+    --grey: #828282;
+    --roboto: Roboto, sans-serif;
+    --courier: 'Courier Prime', monospace;
+    font-family: var(--roboto);
+    color: var(--primay-color);
+}
+
+body {
+    background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+    padding: 0px 10em;
+}
+
+.emphasis {
+    color: var(--secondary-color);
+}
+
