@@ -1,0 +1,19 @@
+.skills {
+    background-color: #161616;
+    padding: 3em 9em;
+}
+
+.skills-title {
+
+}
+
+.skills-tecnologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.skills-tecnology {
+    height: 5em;
+}

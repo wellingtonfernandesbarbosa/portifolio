@@ -3,11 +3,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 2em;
-    padding: 1em 0;
+    padding: 1em 5em;
 }
 
 .header-name{
-    color: var(--grey);
+    color: var(--tertiary-color);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
@@ -29,6 +29,10 @@ nav {
     font-size: 1.2em;
     font-weight: 700;
     align-items: center;
+}
+
+.navbar-link:hover, .header-contacts-links:hover {
+    color: var(--secondary-color);
 }
 
 .header-contacts{
