@@ -1,5 +1,5 @@
 .aboutMe {
-    margin: 5em 8em 5em;
+    margin: 5em 8em;
     display: flex;
 }
 
@@ -47,4 +47,50 @@
 
 .cards-code {
     padding: 0.5em;
+}
+
+@media screen and (max-width: 900px) {
+    .aboutMe {
+        margin: 2em 3em;
+    }
+
+    .aboutMe-card {
+        width: 70%;
+        height: 25%;
+        margin-bottom: 1em;
+    }
+
+    .aboutMe-cards {
+        width: 75%;
+    }
+
+    .cards-code {
+        padding: 1.5em 0.5em;
+        width: 2em;
+        height: 1.8em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutMe {
+        margin: 1em;
+        flex-direction: column;
+    }
+
+    .aboutMe-info {
+        width: 100%;
+    }
+
+    .aboutMe-card {
+        padding: 0 1em 0.5em;
+    }
+
+    .aboutMe-cards {
+        width: 100%;
+    }
+
+    .aboutMe-cards-title {
+        padding: 0.5em 0.5em 0.5em 0;
+        font-size: 1.2em;
+    }
 }

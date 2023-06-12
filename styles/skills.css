@@ -1,10 +1,6 @@
 .skills {
     background-color: #161616;
-    padding: 3em 9em;
-}
-
-.skills-title {
-
+    padding: 3em 8em;
 }
 
 .skills-tecnologies {
@@ -16,4 +12,24 @@
 
 .skills-tecnology {
     height: 5em;
+}
+
+@media screen and (max-width: 900px) {
+    .skills {
+        padding: 2em 3em;
+    }
+
+    .skills-tecnology {
+        height: 3.7em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills {
+        padding: 2em 1em;
+    }
+
+    .skills-tecnology {
+        height: 2.5em;
+    }
 }

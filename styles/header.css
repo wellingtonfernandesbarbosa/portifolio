@@ -37,16 +37,13 @@ nav {
 
 .header-contacts{
     display: flex;
-    align-items: center;
     gap: 1em;
-}
-
-.contacts-links {
-    display: flex;
-    align-items: center;
+    width: auto;
 }
 
 .header-contacts-links {
+    display: flex;
+    align-items: center;  
     text-decoration: none;
     color: #ffffff;
     font-weight: 700;
@@ -56,4 +53,35 @@ nav {
     width: 26px;
     margin: 0.5em;
     align-items: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    .contacts-link-label {
+        display: none;
+    }
+
+    nav {
+        padding: 1em 2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header-name {
+        padding-bottom: 0.5em;
+    }
+
+    .navbar-links {
+        padding-bottom: 0.5em;
+    }
+
+    .header-contacts {
+        padding-bottom: 1em;
+    }
+
 }
