@@ -4,6 +4,7 @@
 @import url('styles/whoIAm.css');
 @import url('styles/aboutMe.css');
 @import url('styles/skills.css');
+@import url('styles/projects.css');
 
 :root{
     --primay-color: #e0e0e0;
@@ -25,5 +26,12 @@ body {
 
 .sectionTitle {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+.info-text {
+    margin-top: 1.5em;
+    width: 90%;
+    font-weight: 400;
+    line-height: 1.5em;
 }

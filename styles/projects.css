@@ -1,0 +1,87 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 9em;
+}
+
+.projects__name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75em;
+    margin: 20px 10px;
+}
+
+.projects__name:hover {
+    color: var(--secondary-color);
+}
+
+.projects__items {
+    text-align: center;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.projects__info{
+    display: flex;
+}
+
+.projects--invertSection{
+    flex-direction: row-reverse;
+}
+
+.projects__image {
+    display: flex;
+    height: 330px;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+
+.site__image {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.site__image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+}
+
+.projects__detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    width: 50%;
+}
+
+.projects__link {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+
+.botton__link {
+    font-size:16px;
+    text-decoration: none;
+	font-weight:bold;
+	padding:18px 38px;
+    font-family:Arial;
+    border-width:1px;
+    color: var(--primary-color);
+    border-radius:7px;
+    background:rgba(22, 27, 34, 0.83);
+  }
+  
+  .botton__link:hover {
+    background: rgba(34, 37, 43, 0.74);
+    color: var(--secondary-color);
+  }
+
+  .botton__link:active {
+	position:relative;
+	top:1px;
+}
