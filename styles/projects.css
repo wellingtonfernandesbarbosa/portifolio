@@ -122,7 +122,7 @@
 
 @media screen and (max-width: 480px) {
     .projects {
-        padding: 2em 1em;
+        padding: 2em 1em 0;
     }
     
     .projects__name {
@@ -153,7 +153,7 @@
     }
 
     .site__image {
-        width: 88%;
+        width: 95%;
         border-radius: 15px;
     }
 
@@ -163,6 +163,7 @@
 
     .projects__text {
         font-size: 1em;
+        padding: 0 0.5em;
     }
 
     .projects__link {
