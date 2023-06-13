@@ -3,14 +3,14 @@
     padding: 3em 8em;
 }
 
-.skills-tecnologies {
+.skills__tecnologies {
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
     margin-top: 3em;
 }
 
-.skills-tecnology {
+.skills__tecnology {
     height: 5em;
 }
 
@@ -19,7 +19,7 @@
         padding: 2em 3em;
     }
 
-    .skills-tecnology {
+    .skills__tecnology {
         height: 3.7em;
     }
 }
@@ -29,7 +29,7 @@
         padding: 2em 1em;
     }
 
-    .skills-tecnology {
+    .skills__tecnology {
         height: 2.5em;
     }
 }

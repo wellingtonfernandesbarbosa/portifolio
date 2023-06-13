@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     padding: 3em 8em;
+    gap: 1em;
 }
 
 .projects__name {
     text-align: center;
-    font-weight: 700;
     font-size: 1.75em;
-    margin: 20px 10px;
+    padding: 0 0 1em;
 }
 
 .projects__name:hover {
@@ -16,16 +16,16 @@
 }
 
 .projects__items {
-    text-align: center;
-    font-weight: 400;
-    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
 }
 
 .projects__info{
     display: flex;
 }
 
-.projects--invertSection{
+.projects__invertSection{
     flex-direction: row-reverse;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .site__image {
-    width: 80%;
+    width: 70%;
     margin: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -58,26 +58,25 @@
     width: 50%;
 }
 
-.projects-text{
-    padding: 0 1em;
-    text-align: justify;
+.projects__text{
+    padding: 0 1.5em;
 }
 
 .projects__link {
     display: flex;
-    justify-content: space-around;
-    padding: 0.5em;
+    justify-content: center;
+    gap: 9em;
 }
 
 .botton__link {
     font-size:16px;
     text-decoration: none;
 	font-weight:bold;
-	padding:18px 38px;
+	padding:16px 38px;
     font-family:Arial;
     border-width:1px;
     color: var(--primary-color);
-    border-radius:7px;
+    border-radius:5px;
     background:rgba(22, 27, 34, 0.83);
   }
   
@@ -93,7 +92,7 @@
               
 @media screen and (max-width: 900px) {
     .projects {
-        padding: 1em;
+        padding: 2em 3em;
     }
 
     .projects__items{
@@ -115,17 +114,21 @@
         padding: 0;
         margin-bottom: 1em;
     }
+
+    .projects__text {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .projects__name {
         text-align: center;
         font-weight: 700;
-        font-size: 1.2em;
+        font-size: 1.5em;
         margin-bottom: 0.8em;
     }
 
-    .projects--invertSection {
+    .projects__invertSection {
         flex-direction: row;
     }
     
@@ -142,6 +145,7 @@
     .projects__image {
         width: 100%;
         height: auto;
+        border-radius: 10px;
     }
 
     .site__image {
@@ -153,11 +157,12 @@
         width: 100%;
     }
 
-    .projects-text {
+    .projects__text {
         font-size: 1em;
     }
 
     .projects__link {
         margin-top: 1em;
+        gap: 5.3em;
     }
 }
