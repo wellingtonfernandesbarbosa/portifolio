@@ -8,3 +8,9 @@
     color: var(--primary-color);
     margin: 0;
 }
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 1em 0;
+    }
+}
