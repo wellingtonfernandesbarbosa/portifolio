@@ -97,7 +97,7 @@
 
     .projects__items{
         height: fit-content;
-        display: block;
+        flex-direction: column;
     }
 
     .projects__name {
@@ -139,6 +139,7 @@
     .projects__items {
         padding: 0;
         margin: 16px 0 32px;
+        gap: 1em;
     }
 
     .projects__info {
