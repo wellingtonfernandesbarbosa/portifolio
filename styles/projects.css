@@ -118,6 +118,10 @@
     .projects__text {
         margin: 0;
     }
+
+    .projects__link {
+        gap: 5em;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -127,7 +131,6 @@
     
     .projects__name {
         text-align: center;
-        font-weight: 700;
         font-size: 1.5em;
         margin-bottom: 0.8em;
     }
@@ -164,7 +167,7 @@
 
     .projects__text {
         font-size: 1em;
-        padding: 0 0.5em;
+        padding: 0 0.6em;
     }
 
     .projects__link {
