@@ -42,6 +42,7 @@
     font-weight: 700;
     font-size: 1.3em;
     margin: 0;
+    text-align: left;
 }
 
 .aboutMe__cards-text {
@@ -81,6 +82,12 @@
         padding: 1.5em 0.5em;
         width: 2em;
         height: 1.8em;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .aboutMe {
+        margin: 1em 2em 0;
     }
 }
 

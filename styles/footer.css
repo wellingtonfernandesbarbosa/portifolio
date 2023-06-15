@@ -13,4 +13,8 @@
     .footer {
         padding: 1em 0;
     }
+
+    .footer__text {
+        font-size: 14px;
+    }
 }

@@ -46,6 +46,12 @@
     }
 }
 
+@media screen and (max-width: 760px) {
+    .whoIAm {
+        margin: 1em 2em 0;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .whoIAm {
         margin: 0px;
