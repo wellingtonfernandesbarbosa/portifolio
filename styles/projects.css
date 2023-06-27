@@ -75,7 +75,7 @@
 	padding:16px 38px;
     font-family:Arial;
     border-width:1px;
-    color: var(--primary-color);
+    color: #e0e0e0;
     border-radius:5px;
     background:rgba(22, 27, 34, 0.83);
   }

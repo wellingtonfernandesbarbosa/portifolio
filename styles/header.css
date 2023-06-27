@@ -15,7 +15,7 @@ nav {
 }
 
 .midle__name{
-    color: #f2f2f2
+    color: var(--primary-color);
 }
 
 .navbar__links {
@@ -24,7 +24,7 @@ nav {
 }
 
 .navbar__link {
-    color: #ffffff;
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
@@ -45,7 +45,7 @@ nav {
     display: flex;
     align-items: center;  
     text-decoration: none;
-    color: #ffffff;
+    color: var(--primary-color);
     font-weight: 700;
 }
 

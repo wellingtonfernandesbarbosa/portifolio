@@ -8,18 +8,19 @@
 @import url('styles/footer.css');
 
 :root{
-    --primay-color: #e0e0e0;
-    --secondary-color: #22d4fd;
-    --tertiary-color: #828282;
-    --black: #000000;
     --roboto: Roboto, sans-serif;
     --courier: 'Courier Prime', monospace;
     font-family: var(--roboto);
-    color: var(--primay-color);
+    color: var(--primary-color);
 }
 
 body {
-    background: linear-gradient(130.36deg, #000000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+    background: linear-gradient(
+        130.36deg, 
+        var(--background-primary-color) 0%, 
+        var(--background-secondary-color) 44.03%, var(--background-tertiary-color) 99.99%,
+        var(--background-quaternary-color) 100%
+    );
 }
 
 .emphasis {
@@ -40,7 +41,7 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--primay-color);
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 480px) {
