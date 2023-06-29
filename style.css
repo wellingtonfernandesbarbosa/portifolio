@@ -17,8 +17,9 @@
 body {
     background: linear-gradient(
         130.36deg, 
-        var(--background-primary-color) 0%, 
-        var(--background-secondary-color) 44.03%, var(--background-tertiary-color) 99.99%,
+        var(--background-primary-color) 5%, 
+        var(--background-secondary-color) 20%,
+        var(--background-tertiary-color) 40%,
         var(--background-quaternary-color) 100%
     );
 }
