@@ -9,7 +9,7 @@ function setDarkTheme() {
     if (isDarkModeEnabled || (currentTime >= 18 || currentTime < 6)) {
       root.style.setProperty('--primary-color', '#e0e0e0');
       root.style.setProperty('--secondary-color', '#22d4fd');
-      root.style.setProperty('--tertiary-color', '#828282');
+      root.style.setProperty('--tertiary-color', '#727272');
       root.style.setProperty('--quaternary-color', '#101010');
       root.style.setProperty('--background-color', '#161616');
       root.style.setProperty('--background-primary-color', '#101010');
@@ -22,7 +22,7 @@ function setDarkTheme() {
     } else {
       root.style.setProperty('--primary-color', '#292929');
       root.style.setProperty('--secondary-color', '#007bff');
-      root.style.setProperty('--tertiary-color', '#555555');
+      root.style.setProperty('--tertiary-color', '#a5a5a5');
       root.style.setProperty('--quaternary-color', '#f5f5f5');
       root.style.setProperty('--background-color', '#c9c9c9');
       root.style.setProperty('--background-primary-color', '#e8e8e8');
