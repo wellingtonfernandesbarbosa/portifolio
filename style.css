@@ -23,7 +23,10 @@ body {
         var(--background-quaternary-color) 100%
     );
 }
-
+html {
+    scroll-behavior: smooth;
+}
+    
 .emphasis {
     color: var(--secondary-color);
 }
