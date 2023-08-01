@@ -26,7 +26,11 @@
 
 @media screen and (max-width: 760px) {
     .skills {
-        padding: 1em 2em 0;
+        padding: 1em 2em 1em;
+    }
+
+    .skills__tecnologies {
+        justify-content: space-around;
     }
 }
 

@@ -78,14 +78,14 @@
     color: #e0e0e0;
     border-radius:5px;
     background:rgba(22, 27, 34, 0.83);
-  }
+}
   
-  .botton__link:hover {
+.botton__link:hover {
     background: rgba(34, 37, 43, 0.74);
     color: var(--secondary-color);
-  }
+}
 
-  .botton__link:active {
+.botton__link:active {
 	position:relative;
 	top:1px;
 }
@@ -130,6 +130,7 @@
     }
 
     .projects__link {
+        margin-top: 1em;
         gap: 6vw;
     }
 }
@@ -181,7 +182,6 @@
     }
 
     .projects__link {
-        margin-top: 1em;
         gap: 13vw;
     }
 }
