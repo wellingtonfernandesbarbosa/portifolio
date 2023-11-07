@@ -107,7 +107,7 @@
     }
 
     .aboutMe__cards {
-        width: 100%;
+        display: none;
     }
 
     .aboutMe__cards__title {
