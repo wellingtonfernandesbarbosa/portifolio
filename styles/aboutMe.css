@@ -89,6 +89,14 @@
     .aboutMe {
         margin: 1em 2em 1em;
     }
+
+    .aboutMe__cards {
+        display: none;
+    }
+
+    .aboutMe__info {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -106,9 +114,6 @@
         padding: 0 1em 0.5em;
     }
 
-    .aboutMe__cards {
-        display: none;
-    }
 
     .aboutMe__cards__title {
         padding: 0.5em 0.5em 0.5em 0;
