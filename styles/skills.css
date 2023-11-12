@@ -5,6 +5,7 @@
 
 .skills__tecnologies {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 2em;
   margin-top: 3em;
@@ -44,8 +45,9 @@
     padding: 2em 3em;
   }
 
-  .skills__tecnology {
-    height: 3.7em;
+  .skills__tecnology img {
+    height: 4.7em;
+    width: 4.7em;
   }
 }
 
@@ -64,7 +66,8 @@
     padding: 2em 1em;
   }
 
-  .skills__tecnology {
-    height: 2.5em;
+  .skills__tecnology img {
+    height: 4em;
+    width: 4em;
   }
 }
