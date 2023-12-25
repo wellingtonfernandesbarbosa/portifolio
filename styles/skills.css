@@ -1,5 +1,8 @@
-.skills {
+.skillsContainer {
   background-color: var(--background-color);
+}
+
+.skills {
   padding: 3em 8em;
 }
 

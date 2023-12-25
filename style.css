@@ -23,8 +23,14 @@ body {
         var(--background-quaternary-color) 100%
     );
 }
+
 html {
     scroll-behavior: smooth;
+}
+
+.header, .whoIAm, .aboutMe, .skills, .projects {
+    margin: auto;
+    max-width: 1440px;
 }
     
 .emphasis {
