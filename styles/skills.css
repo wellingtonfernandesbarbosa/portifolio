@@ -1,9 +1,12 @@
 .skillsContainer {
   background-color: var(--background-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .skills {
-  padding: 3em 1em;
+  padding: 3em 2em;
 }
 
 .skills__tecnologies {
@@ -45,7 +48,7 @@
 
 @media screen and (max-width: 900px) {
   .skills {
-    padding: 2em 3em;
+    padding: 2em;
   }
 
   .skills__tecnology img {
@@ -64,7 +67,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .skills {
     padding: 2em 1em;
   }

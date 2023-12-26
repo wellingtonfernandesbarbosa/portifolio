@@ -1,7 +1,7 @@
 .projects {
     display: flex;
     flex-direction: column;
-    padding: 3em 1em;
+    padding: 3em 2em;
     gap: 1em;
 }
 
@@ -92,7 +92,7 @@
               
 @media screen and (max-width: 900px) {
     .projects {
-        padding: 2em 3em;
+        padding: 2em;
     }
 
     .projects__items{

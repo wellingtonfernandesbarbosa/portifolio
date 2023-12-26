@@ -1,12 +1,10 @@
 .aboutMe {
-    margin: 5em 8em;
+    margin: 2em;
     display: flex;
 }
 
 .aboutMe__info {
     width: 50%;
-    margin: 0 0 0 1em;
-
 }
 
 .aboutMe__info__text {
@@ -62,10 +60,6 @@
 }
 
 @media screen and (max-width: 900px) {
-    .aboutMe {
-        margin: 2em 3em;
-    }
-
     .aboutMe__info__text {
         padding: 0;
     }
@@ -101,7 +95,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     .aboutMe {
         margin: 1em;
         flex-direction: column;
