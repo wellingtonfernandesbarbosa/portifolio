@@ -1,7 +1,7 @@
 .projects {
     display: flex;
     flex-direction: column;
-    padding: 3em 8em;
+    padding: 3em 1em;
     gap: 1em;
 }
 
