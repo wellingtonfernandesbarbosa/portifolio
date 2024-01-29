@@ -74,7 +74,7 @@
 	font-weight:bold;
 	padding:16px 38px;
     font-family:Arial;
-    border-width:1px;
+    border: 1px solid rgba(22, 27, 34, 0.83);
     color: #e0e0e0;
     border-radius:5px;
     background:rgba(22, 27, 34, 0.83);
@@ -83,6 +83,7 @@
 .botton__link:hover {
     background: rgba(34, 37, 43, 0.74);
     color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
 }
 
 .botton__link:active {
