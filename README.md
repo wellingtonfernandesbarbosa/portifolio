@@ -1,9 +1,7 @@
-# Wellington Fernandes - Desenvolvedor Front-End
+# Portifólio
 
-## Sobre
-Olá! Meu nome é Wellington Fernandes, sou um Desenvolvedor Front-End e Analista de Sistemas. Este repositório contém uma amostra dos meus projetos e habilidades em desenvolvimento web. 
+Olá! Meu nome é Wellington Fernandes, sou Desenvolvedor Front-End e Analista de Sistemas. Este repositório contém uma amostra dos meus projetos e habilidades em desenvolvimento web. 
 
-### Missão
 Meu objetivo é aplicar meus conhecimentos em Análise e Desenvolvimento de Sistemas para criar interfaces belas e funcionais, entregando soluções de alta qualidade e proporcionando experiências memoráveis para os usuários.
 
 ## Projetos Destacados
@@ -72,4 +70,4 @@ Este projeto utiliza TypeScript. Para compilar o código TypeScript em JavaScrip
 ```
 npm run build
 ```
-Isso compilará todos os arquivos TypeScript presentes no diretório src e gerará os arquivos JavaScript na pasta app.
+Isso compilará todos os arquivos TypeScript presentes no diretório src e gerará os arquivos JavaScript na pasta app/.
