@@ -17,9 +17,9 @@ const setDarkTheme = (): void => {
       root.style.setProperty('--background-secondary-color', '#151515');
       root.style.setProperty('--background-tertiary-color', '#202020');
       root.style.setProperty('--background-quaternary-color', '#353535');
-      imagemLinkedin.src = "assets/linkedin.png";
-      imagemGithub.src = "assets/github.png";
-      imagemEmail.src = "assets/email.png";
+      imagemLinkedin.src = "./assets/linkedin.png";
+      imagemGithub.src = "./assets/github.png";
+      imagemEmail.src = "./assets/email.png";
     } else {
       root.style.setProperty('--primary-color', '#292929');
       root.style.setProperty('--secondary-color', '#007bff');
@@ -30,9 +30,9 @@ const setDarkTheme = (): void => {
       root.style.setProperty('--background-secondary-color', '#efefef');
       root.style.setProperty('--background-tertiary-color', '#f8f8f8');
       root.style.setProperty('--background-quaternary-color', '#ffffff');
-      imagemLinkedin.src = "assets/linkedin-black.png";
-      imagemGithub.src = "assets/github-black.png";
-      imagemEmail.src = "assets/email-black.png";
+      imagemLinkedin.src = "./assets/linkedin-black.png";
+      imagemGithub.src = "./assets/github-black.png";
+      imagemEmail.src = "./assets/email-black.png";
     }
   }
   

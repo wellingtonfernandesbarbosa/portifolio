@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "start": "npx serve -s ./public"
   },
   "keywords": [],
   "author": "",

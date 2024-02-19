@@ -2,9 +2,15 @@
 
 Olá! Meu nome é Wellington Fernandes, sou Desenvolvedor Front-End e Analista de Sistemas. Este repositório contém uma amostra dos meus projetos e habilidades em desenvolvimento web. 
 
-Meu objetivo é aplicar meus conhecimentos em Análise e Desenvolvimento de Sistemas para criar interfaces belas e funcionais, entregando soluções de alta qualidade e proporcionando experiências memoráveis para os usuários.
+Meu objetivo é aplicar meus conhecimentos em Análise e Desenvolvimento de Sistemas para criar interfaces belas e funcionais, entregando soluções de alta qualidade e proporcionando experiências memoráveis aos usuários.
 
 ## Projetos Destacados
+
+### ⛪ Finsweet
+O Finsweet é um aplicativo web voltado para igrejas, construído com React e TypeScript. Com um foco claro em praticidade e eficiência, o Finsweet oferece uma variedade de recursos para exibir sermões, eventos, blogs e contatos, tudo isso em uma interface intuitiva e com um design moderno. É a solução ideal para comunidades religiosas que desejam aprimorar sua comunicação e expandir sua presença online.
+
+- [GitHub](https://github.com/wellingtonfernandesbarbosa/finsweet)
+- [Ver site](https://finsweet-wells.vercel.app)
 
 ### 🎂 Doce Arte
 Desenvolvi a página inicial da Doce Arte Confeitaria, um projeto que oferece uma experiência interativa aos usuários, permitindo que eles explorem os produtos, conheçam a confeitaria e encomendem bolos personalizados. Tecnologias utilizadas: HTML, CSS e JavaScript.
@@ -64,10 +70,20 @@ cd nome-do-projeto
 npm install
 ```
 
-## Compilação do TypeScript
-Este projeto utiliza TypeScript. Para compilar o código TypeScript em JavaScript, você pode executar o seguinte comando:
 
-```
-npm run build
-```
-Isso compilará todos os arquivos TypeScript presentes no diretório src e gerará os arquivos JavaScript na pasta app/.
+## Compilação e Execução
+Este projeto utiliza TypeScript para desenvolvimento. Para compilar o código TypeScript em JavaScript, você pode executar o seguinte comando:
+
+```npm run build```
+Este comando compilará todos os arquivos TypeScript presentes no diretório src e gerará os arquivos JavaScript na pasta public.
+
+Para executar o projeto, execute o seguinte comando:
+
+``npm run start``
+Este comando iniciará um servidor de desenvolvimento que servirá a pasta public. Você pode então acessar o projeto em seu navegador da web em http://localhost:3000.
+
+# Documentações úteis:
+
+Documentação do TypeScript: https://www.typescriptlang.org/docs/handbook/
+TypeScript Playground: https://www.typescriptlang.org/play
+Compilador TypeScript: https://www.typescriptlang.org/download
