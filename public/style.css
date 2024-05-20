@@ -49,7 +49,7 @@ html {
 }
 
 .header, .whoIAm, .aboutMe, .skills, .projects {
-    max-width: 1440px;
+    max-width: 1280px;
 }
     
 .emphasis {
