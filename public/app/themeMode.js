@@ -4,9 +4,8 @@ const imagemGithub = document.getElementById('imagem-github');
 const imagemEmail = document.getElementById('imagem-email');
 const setDarkTheme = () => {
     const root = document.documentElement;
-    const currentTime = new Date().getHours();
     const isDarkModeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (isDarkModeEnabled || (currentTime >= 18 || currentTime < 6)) {
+    if (isDarkModeEnabled) {
         root.style.setProperty('--primary-color', '#e0e0e0');
         root.style.setProperty('--secondary-color', '#22d4fd');
         root.style.setProperty('--tertiary-color', '#727272');
