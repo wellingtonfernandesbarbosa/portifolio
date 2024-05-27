@@ -1,7 +1,5 @@
 const imagesToTranslate: NodeListOf<HTMLImageElement> = document.querySelectorAll("img[data-translate-en-alt]");
 const userLang: string = navigator.language;
-console.log(userLang)
-
 
 document.addEventListener("DOMContentLoaded", () => {
 

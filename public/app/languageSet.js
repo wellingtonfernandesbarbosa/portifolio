@@ -1,7 +1,6 @@
 "use strict";
 const imagesToTranslate = document.querySelectorAll("img[data-translate-en-alt]");
 const userLang = navigator.language;
-console.log(userLang);
 document.addEventListener("DOMContentLoaded", () => {
     if (userLang === "en-US" || userLang === "en") {
         let elementsToTranslate = document.querySelectorAll("[data-translate-en]");
