@@ -39,6 +39,7 @@
 
 .site__image {
     width: 70%;
+    height: auto;
     margin: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
