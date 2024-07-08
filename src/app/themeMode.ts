@@ -38,3 +38,16 @@ const setDarkTheme = (): void => {
   setDarkTheme();
   
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setDarkTheme);
+
+
+const downloadCV = document.querySelector("#downloadCV") as HTMLAnchorElement;
+const downloadIcon = document.querySelector("#downloadIcon") as HTMLImageElement;
+console.log(downloadCV)
+
+downloadCV.addEventListener("mouseenter", () => {
+  downloadIcon.setAttribute("src", "assets/download-blue.png");
+});
+
+downloadCV.addEventListener("mouseleave", () => {
+  downloadIcon.setAttribute("src", "assets/download.png");
+});

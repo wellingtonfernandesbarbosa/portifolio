@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR" data-translate-en="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
@@ -20,7 +20,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="style.css" />
 
   <title>Wellington Fernandes</title>
 </head>
@@ -97,25 +97,21 @@
       </p>
 
     </div>
-    <div class="aboutMe__cards">
-      <div class="aboutMe__card">
-        <div class="aboutMe__card-info">
-          <p class="aboutMe__cards__title" data-translate-en="Front End Developer">
-            Desenvolvedor Front-End
-          </p>
-          <a href="#projects" class="aboutMe__cards-link" data-translate-en="Projects">Projetos</a>
-        </div>
-        <img src="assets/code1.png" class="cards-code" alt="Símbolo de Fechamento HTML: &lt;/&gt;"
-          data-translate-en-alt="HTML Closing Tag Symbol: &lt;/&gt;" />
-      </div>
-      <div class="aboutMe__card">
-        <div class="aboutMe__card-info">
-          <p class="aboutMe__cards__title">Freelancerer</p>
-          <a href="https://wa.me/5531994472867" class="aboutMe__cards-link" target="_blank"
-            data-translate-en="Hire me!">Contrate me!</a>
-        </div>
-        <img src="assets/code2.png" class="cards-code" alt="Símbolo de Chaves: {}"
-          data-translate-en-alt="Curly Braces Symbol: {}" />
+    <div class="aboutMe__curriculum">
+      <h3 class="sectionTitle">
+        <span class="emphasis" data-translate-en="myResume">curriculumVitae</span>()
+      </h3>
+      <p class="aboutMe__curriculum__text" data-translate-en="Click on the button below to download my resume">
+        Clique no botão abaixo para baixar o curriculo e tenha mais informações
+      </p>
+      <div class="aboutMe__curriculum__link">
+        <a href="assets/WellingtonFernandes.pdf" class="aboutMe__curriculum__link__button" target="_blank" title="Download CV" id="downloadCV">
+          <span data-translate-en="Download my resume">
+            Baixar Currículo
+          </span>
+          <img src="assets/download.png" class="aboutMe__curriculum__link__button__icon" alt="Download Icon" id="downloadIcon"
+            data-translate-en-alt="Download Icon" />
+        </a>
       </div>
     </div>
   </section>
@@ -205,8 +201,10 @@
               implementação.
             </p>
             <div class="projects__link">
-              <a href="https://github.com/wellingtonfernandesbarbosa/parceiros-do-bem" class="botton__link" target="_blank">GitHub</a>
-              <a href="https://parceirosdobem.vercel.app/" class="botton__link" data-translate-en="See website" target="_blank">Ver site</a>
+              <a href="https://github.com/wellingtonfernandesbarbosa/parceiros-do-bem" class="botton__link"
+                target="_blank">GitHub</a>
+              <a href="https://parceirosdobem.vercel.app/" class="botton__link" data-translate-en="See website"
+                target="_blank">Ver site</a>
             </div>
           </div>
         </div>
@@ -216,7 +214,8 @@
         <h3 class="projects__name">🎂 Doce Arte Confeitaria</h3>
         <div class="projects__info projects__invertSection">
           <div class="projects__image">
-            <img src="assets/projects/docearteconfeitaria.webp" class="site__image" alt="Imagem do site Doce Arte Confeitaria"
+            <img src="assets/projects/docearteconfeitaria.webp" class="site__image"
+              alt="Imagem do site Doce Arte Confeitaria"
               data-translate-en-alt="Doce Arte Confeitaria website homepage" />
           </div>
           <div class="projects__detail">
@@ -230,8 +229,10 @@
               foram HTML, CSS e TypeScript.
             </p>
             <div class="projects__link">
-              <a href="https://github.com/wellingtonfernandesbarbosa/docearte" class="botton__link" target="_blank">GitHub</a>
-              <a href="https://www.docearteconfeitaria.com.br/" class="botton__link"  data-translate-en="See website" target="_blank">Ver site</a>
+              <a href="https://github.com/wellingtonfernandesbarbosa/docearte" class="botton__link"
+                target="_blank">GitHub</a>
+              <a href="https://www.docearteconfeitaria.com.br/" class="botton__link" data-translate-en="See website"
+                target="_blank">Ver site</a>
             </div>
           </div>
         </div>
@@ -248,13 +249,17 @@
             <p class="projects__text"
               data-translate-en="The Finsweet is a web application aimed at churches, built with React and TypeScript. With a clear focus on practicality and efficiency, Finsweet offers features to display sermons, events, blogs, and contacts, all in an intuitive interface with modern design. Ideal for religious communities looking to enhance their communication and expand their online presence.">
               O Finsweet é um aplicativo web voltado para igrejas, construído com React e TypeScript. Com um foco claro
-              em praticidade e eficiência, o Finsweet oferece uma variedade de recursos para exibir sermões, eventos, blogs e contatos,
-              tudo isso em uma interface intuitiva e com um design moderno. É a solução ideal para comunidades religiosas que desejam
+              em praticidade e eficiência, o Finsweet oferece uma variedade de recursos para exibir sermões, eventos,
+              blogs e contatos,
+              tudo isso em uma interface intuitiva e com um design moderno. É a solução ideal para comunidades
+              religiosas que desejam
               aprimorar sua comunicação e expandir sua presença online.
             </p>
             <div class="projects__link">
-              <a href="https://github.com/wellingtonfernandesbarbosa/finsweet" class="botton__link" target="_blank">GitHub</a>
-              <a href="https://finsweet-wells.vercel.app" class="botton__link"  data-translate-en="See website" target="_blank">Ver site</a>
+              <a href="https://github.com/wellingtonfernandesbarbosa/finsweet" class="botton__link"
+                target="_blank">GitHub</a>
+              <a href="https://finsweet-wells.vercel.app" class="botton__link" data-translate-en="See website"
+                target="_blank">Ver site</a>
             </div>
           </div>
         </div>
@@ -279,8 +284,10 @@
               em HTML, CSS, JavaScript e consumo de API.
             </p>
             <div class="projects__link">
-              <a href="https://github.com/wellingtonfernandesbarbosa/alurabooks" class="botton__link" target="_blank">GitHub</a>
-              <a href="https://alurabooks-wells.vercel.app" class="botton__link"  data-translate-en="See website" target="_blank">Ver site</a>
+              <a href="https://github.com/wellingtonfernandesbarbosa/alurabooks" class="botton__link"
+                target="_blank">GitHub</a>
+              <a href="https://alurabooks-wells.vercel.app" class="botton__link" data-translate-en="See website"
+                target="_blank">Ver site</a>
             </div>
           </div>
         </div>
@@ -306,8 +313,10 @@
               envolvente.
             </p>
             <div class="projects__link">
-              <a href="https://github.com/wellingtonfernandesbarbosa/aluramidi" class="botton__link" target="_blank">GitHub</a>
-              <a href="https://aluramidi-wells.vercel.app" class="botton__link"  data-translate-en="See website" target="_blank">Ver site</a>
+              <a href="https://github.com/wellingtonfernandesbarbosa/aluramidi" class="botton__link"
+                target="_blank">GitHub</a>
+              <a href="https://aluramidi-wells.vercel.app" class="botton__link" data-translate-en="See website"
+                target="_blank">Ver site</a>
             </div>
           </div>
         </div>
@@ -331,8 +340,10 @@
               desenvolvimento web.
             </p>
             <div class="projects__link">
-              <a href="https://github.com/wellingtonfernandesbarbosa/BarbeariaAlura" class="botton__link" target="_blank">GitHub</a>
-              <a href="https://barbeariaalura-wells.vercel.app" class="botton__link"  data-translate-en="See website" target="_blank">Ver site</a>
+              <a href="https://github.com/wellingtonfernandesbarbosa/BarbeariaAlura" class="botton__link"
+                target="_blank">GitHub</a>
+              <a href="https://barbeariaalura-wells.vercel.app" class="botton__link" data-translate-en="See website"
+                target="_blank">Ver site</a>
             </div>
           </div>
         </div>
@@ -357,8 +368,10 @@
               e atrativo, com especial atenção à usabilidade.
             </p>
             <div class="projects__link">
-              <a href="https://github.com/wellingtonfernandesbarbosa/Apeperia" class="botton__link" target="_blank">GitHub</a>
-              <a href="https://apeperia-wells.vercel.app" class="botton__link"  data-translate-en="See website" target="_blank">Ver site</a>
+              <a href="https://github.com/wellingtonfernandesbarbosa/Apeperia" class="botton__link"
+                target="_blank">GitHub</a>
+              <a href="https://apeperia-wells.vercel.app" class="botton__link" data-translate-en="See website"
+                target="_blank">Ver site</a>
             </div>
           </div>
         </div>

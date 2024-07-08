@@ -1,6 +1,8 @@
 .aboutMe {
-    margin: 2em;
     display: flex;
+    gap: 1em;
+
+    margin: 2em;
 }
 
 .aboutMe__info {
@@ -11,52 +13,54 @@
     padding-right: 2em;
 }
 
-.aboutMe__cards {
+.aboutMe__curriculum {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 50%;
-    padding: 2em 0;
 }
 
-.aboutMe__card {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--tertiary-color);
-    width: 60%;
-    height: 30%;
-    padding: 1em;
+.aboutMe__curriculum__link {
+    width: max-content;
+    margin: 32px auto;
     border-radius: 5px;
-    margin-bottom: 0.5em;
+    background-color: rgba(22, 27, 34, 0.83);
+    font-weight: bold;
+    font-family: Arial;
 }
 
-.aboutMe__card-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.aboutMe__cards__title {
-    font-family: var(--courier);
-    font-weight: 700;
-    font-size: 1.3em;
-    margin: 0;
-    text-align: left;
-}
-
-.aboutMe__cards-text {
-    padding: 0;
-}
-
-.aboutMe__cards-link {
-    text-decoration: none;
+.aboutMe__curriculum__link:hover {
+    transform: scale(1.02);
+    border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
-    font-weight: 400;
 }
 
-.cards-code {
-    padding: 0.5em;
+.aboutMe__curriculum__link__button {
+    display: flex;
+    align-items: center;
+    padding: 16px 38px;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.aboutMe__curriculum__link__button:hover {
+    color: var(--secondary-color);
+}
+
+
+
+.aboutMe__curriculum__link__button__icon {
+    width: 50px;
+}
+
+
+@media (prefers-color-scheme: light) {
+    .aboutMe__curriculum__link {
+        background-color: rgba(22, 27, 34, 0.83);
+    }
+
+    .aboutMe__curriculum__link__button {
+        color: white;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -70,7 +74,7 @@
         margin-bottom: 1em;
     }
 
-    .aboutMe__cards {
+    .aboutMe__curriculum {
         width: 75%;
     }
 
@@ -84,10 +88,12 @@
 @media screen and (max-width: 760px) {
     .aboutMe {
         margin: 1em 2em 1em;
+        flex-direction: column;
+        gap: 2em;
     }
 
-    .aboutMe__cards {
-        display: none;
+    .aboutMe__curriculum {
+        width: 100%;
     }
 
     .aboutMe__info {
@@ -98,7 +104,6 @@
 @media screen and (max-width: 550px) {
     .aboutMe {
         margin: 1em;
-        flex-direction: column;
     }
 
     .aboutMe__info {
@@ -106,13 +111,7 @@
         width: 100%;
     }
 
-    .aboutMe__card {
-        padding: 0 1em 0.5em;
-    }
-
-
-    .aboutMe__cards__title {
-        padding: 0.5em 0.5em 0.5em 0;
-        font-size: 1.2em;
+    .aboutMe__curriculum__link__button__icon {
+        display: none;
     }
 }
