@@ -20,7 +20,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/src/style.css" />
 
   <title>Wellington Fernandes</title>
 </head>
@@ -105,12 +105,13 @@
         Clique no botão abaixo para baixar o curriculo e tenha mais informações
       </p>
       <div class="aboutMe__curriculum__link">
-        <a href="assets/WellingtonFernandes.pdf" class="aboutMe__curriculum__link__button" target="_blank" title="Download CV" id="downloadCV">
+        <a href="assets/WellingtonFernandes.pdf" class="aboutMe__curriculum__link__button" target="_blank"
+          title="Download CV" id="downloadCV">
           <span data-translate-en="Download my resume">
             Baixar Currículo
           </span>
-          <img src="assets/download.png" class="aboutMe__curriculum__link__button__icon" alt="Download Icon" id="downloadIcon"
-            data-translate-en-alt="Download Icon" />
+          <img src="assets/download.png" class="aboutMe__curriculum__link__button__icon" alt="Download Icon"
+            id="downloadIcon" data-translate-en-alt="Download Icon" />
         </a>
       </div>
     </div>
@@ -383,8 +384,6 @@
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
-    <script src="./app/themeMode.js"></script>
-    <script src="./app/languageSet.js"></script>
+    <script defer src="/src/main.ts" type="module"></script>
 </body>
-
 </html>
