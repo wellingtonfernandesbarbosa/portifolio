@@ -10,6 +10,10 @@
     margin: 0;
 }
 
+.footer__link {
+    color: var(--secondary-color);
+}
+
 @media screen and (max-width: 480px) {
     .footer {
         padding: 1em 0;
