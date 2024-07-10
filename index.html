@@ -27,7 +27,7 @@
 
 <body>
   <header class="header">
-    <nav>
+    <nav class="nav">
       <h1 class="header__name">
         Wellington<span class="midle__name">Fernandes</span>
       </h1>
@@ -44,23 +44,30 @@
       </ul>
 
       <ul class="header__contacts">
-        <li>
+        <li title="WhatsApp" id="link-whatsapp">
+          <a href="https://wa.me/5531972163794" class="header__contacts__links" aria-label="WhatsApp">
+            <img src="./assets/whatsapp-black.png" alt="Ícone do WhatsApp" class="contacts__link__imagem" id="imagem-whatsapp" />
+            <span class="contacts__link__label">WhatsApp</span>
+          </a>
+        </li>
+
+        <li title="Linkedin" id="link-linkedin">
           <a href="https://www.linkedin.com/in/wellsfernandes/" class="header__contacts__links" aria-label="Linkedin">
-            <img alt="" class="contacts__link__imagem" id="imagem-linkedin" />
+            <img src="./assets/linkedin-black.png" alt="Ícone do Linkedin" class="contacts__link__imagem" id="imagem-linkedin" />
             <span class="contacts__link__label">Linkedin</span>
           </a>
         </li>
 
-        <li>
+        <li title="GitHub" id="link-github">
           <a href="https://github.com/wellingtonfernandesbarbosa" class="header__contacts__links" aria-label="GitHub">
-            <img alt="" class="contacts__link__imagem" id="imagem-github" />
+            <img src="./assets/github-black.png" alt="Ícone do GitHub" class="contacts__link__imagem" id="imagem-github" />
             <span class="contacts__link__label" target="_blank">GitHub</span>
           </a>
         </li>
 
-        <li>
+        <li title="Email" id="link-email">
           <a href="mailto:wellingtonfernandes@protonmail.com" class="header__contacts__links" aria-label="Email">
-            <img alt="" class="contacts__link__imagem" id="imagem-email" />
+            <img src="./assets/email-black.png" alt="Ícone do Email" class="contacts__link__imagem" id="imagem-email" />
             <span class="contacts__link__label" data-translate-en="Contact me">Contato</span>
           </a>
         </li>

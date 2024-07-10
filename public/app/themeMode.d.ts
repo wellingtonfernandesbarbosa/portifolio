@@ -1,3 +1,11 @@
+declare const imagemLinkedin: HTMLImageElement;
+declare const imagemGithub: HTMLImageElement;
+declare const imagemEmail: HTMLImageElement;
+declare const imagemWhatsApp: HTMLImageElement;
 declare const setDarkTheme: () => void;
+declare const linkLinkedin: HTMLAnchorElement;
+declare const linkGithub: HTMLAnchorElement;
+declare const linkEmail: HTMLAnchorElement;
+declare const linkWhatsApp: HTMLAnchorElement;
 declare const downloadCV: HTMLAnchorElement;
 declare const downloadIcon: HTMLImageElement;
