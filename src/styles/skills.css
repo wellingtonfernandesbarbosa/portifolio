@@ -6,6 +6,9 @@
 }
 
 .skills {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
   padding: 3em 2em;
 }
 
@@ -14,16 +17,16 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 2em;
-  margin-top: 3em;
 }
 
 .skills__tecnology {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    height: fit-content;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: end;
+  align-items: center;
+  height: fit-content;
+  position: relative;
 }
 
 .skills__tecnology img {
@@ -32,18 +35,15 @@
 }
 
 .skills__tecnology__label {
-  display: none;
-  position: absolute;
+  display: block;
   width: fit-content;
   text-align: center;
-  background: rgba(30, 30, 30, 0.8);
-  border-radius: 5px;
   color: #fff;
   padding: 5px 10px;
 }
 
 .skills__tecnology:hover .skills__tecnology__label {
-  display: block;
+  color: var(--secondary-color);
 }
 
 @media screen and (max-width: 900px) {
